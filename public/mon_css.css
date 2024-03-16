@@ -1,0 +1,60 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #888;
+    font-weight: 400;
+    background: #f4f7fa;
+    position: relative;
+  }
+  .conteneur{
+    float: left;
+    margin: 150px;
+  }
+  .text-deco{
+    text-decoration: underline;
+
+  }
+  .titre-deco{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .navb {
+    overflow-x: auto; /* Défilement horizontal si nécessaire */
+    white-space: nowrap; /* Empêcher le saut de ligne des éléments de navigation */
+    width: 100%; /* Utilisez toute la largeur disponible */
+}
+
+.navb ul {
+    list-style-type: none; /* Supprimer les puces */
+    margin: 0;
+    padding: 0;
+}
+
+.navb ul li {
+    display: inline; /* Afficher les éléments de navigation en ligne */
+    margin-right: 20px; /* Espacement entre les éléments de navigation */
+}
+
+.navb ul li a {
+    text-decoration: none; /* Supprimer les soulignements de lien */
+    color: #333; /* Couleur du texte */
+}
+.img
+{
+  width: 50%;
+  height: 300px;
+
+}
+#Animate {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Définition de l'animation */
+@keyframes move {
+  0% { left: 0; }
+  50% { left: 200px; }
+  100% { left: 0; }
+}
+
