@@ -12,5 +12,4 @@ class Apreciation extends Model
 
     protected $fillable = ['apreciation','commentaire','client_id','location_id','chauffeur_id'];
 
-   
 }
